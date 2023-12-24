@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/athish/Documents/sample-work/django+react/Admin-User-authenticatio/Crud_Using_Rest_With_React_Jwt_BackEnd-umbrella/venv/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

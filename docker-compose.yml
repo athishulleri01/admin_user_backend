@@ -13,11 +13,9 @@ services:
       - POSTGRES_DB=dryz
     ports:
       - "5433:5432"
-    networks:
-      - mynetwork
-networks:
-  mynetwork:
-    driver: bridge
+#     networks:
+#       - mynetwork
+# networks:
+#   mynetwork:
+#     driver: bridge
   
-volumes:
-  static: {}
